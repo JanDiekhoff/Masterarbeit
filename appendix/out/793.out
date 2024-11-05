@@ -1,0 +1,921 @@
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/9 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-25 23:33:30.950118: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-25 23:33:31.066920: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-25 23:33:31.506374: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-25 23:33:31.506435: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-25 23:33:31.506441: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:  11%|█         | 1/9 [00:04<00:37,  4.75s/cell]Executing:  89%|████████▉ | 8/9 [00:04<00:00,  2.24cell/s]Executing:  89%|████████▉ | 8/9 [00:20<00:00,  2.24cell/s][IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/9 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-26 00:11:21.099731: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-26 00:11:21.220248: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-26 00:11:21.655600: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-26 00:11:21.655662: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-26 00:11:21.655668: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:  11%|█         | 1/9 [00:04<00:36,  4.51s/cell][IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/9 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-26 00:12:44.223193: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-26 00:12:44.341167: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-26 00:12:44.783793: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-26 00:12:44.783854: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-26 00:12:44.783860: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:  11%|█         | 1/9 [00:04<00:36,  4.59s/cell]Executing: 100%|██████████| 9/9 [3:24:11<00:00, 1408.11s/cell]Executing: 100%|██████████| 9/9 [3:24:16<00:00, 1361.82s/cell]
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/14 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-26 17:42:16.941679: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-26 17:42:17.059368: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-26 17:42:17.493663: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-26 17:42:17.493723: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-26 17:42:17.493729: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:   7%|▋         | 1/14 [00:04<00:58,  4.51s/cell]Executing:  57%|█████▋    | 8/14 [00:04<00:02,  2.36cell/s]Executing:  86%|████████▌ | 12/14 [00:08<00:01,  1.65cell/s]Executing:  93%|█████████▎| 13/14 [00:20<00:00,  1.65cell/s]Executing: 100%|██████████| 14/14 [4:42:42<00:00, 1978.16s/cell]Executing: 100%|██████████| 14/14 [4:42:47<00:00, 1211.95s/cell]
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/14 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-26 23:22:31.196006: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-26 23:22:31.317960: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-26 23:22:31.756450: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-26 23:22:31.756513: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-26 23:22:31.756519: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:   7%|▋         | 1/14 [00:04<01:01,  4.70s/cell]Executing:  57%|█████▋    | 8/14 [00:04<00:02,  2.27cell/s]Executing:  86%|████████▌ | 12/14 [00:08<00:01,  1.58cell/s]Executing:  93%|█████████▎| 13/14 [00:20<00:00,  1.58cell/s]Executing: 100%|██████████| 14/14 [6:53:50<00:00, 2895.86s/cell]Executing: 100%|██████████| 14/14 [6:54:00<00:00, 1774.31s/cell]
+Traceback (most recent call last):
+  File "/home/diekhoff/.local/bin/papermill", line 8, in <module>
+    sys.exit(papermill())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [14]":
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+File <timed exec>:7
+
+Cell In[9], line 62, in train_model(base_config, lora_config, bnb_config, data, tokenizer, collator)
+     40 args = TrainingArguments(
+     41     output_dir=".",
+     42     fp16=base_config["fp16"],
+   (...)
+     51     optim="paged_adamw_8bit",
+     52 )
+     54 trainer = Trainer(
+     55     model=model,
+     56     args=args,
+   (...)
+     59     data_collator=collator
+     60 )
+---> 62 trainer.train()
+     63 save_path = "tmp"
+     64 trainer.save_model(save_path)
+
+File ~/.local/lib/python3.10/site-packages/transformers/trainer.py:1938, in Trainer.train(self, resume_from_checkpoint, trial, ignore_keys_for_eval, **kwargs)
+   1936         hf_hub_utils.enable_progress_bars()
+   1937 else:
+-> 1938     return inner_training_loop(
+   1939         args=args,
+   1940         resume_from_checkpoint=resume_from_checkpoint,
+   1941         trial=trial,
+   1942         ignore_keys_for_eval=ignore_keys_for_eval,
+   1943     )
+
+File ~/.local/lib/python3.10/site-packages/transformers/trainer.py:2095, in Trainer._inner_training_loop(self, batch_size, args, resume_from_checkpoint, trial, ignore_keys_for_eval)
+   2093         model = self.accelerator.prepare(self.model)
+   2094     else:
+-> 2095         model, self.optimizer = self.accelerator.prepare(self.model, self.optimizer)
+   2096 else:
+   2097     # to handle cases wherein we pass "DummyScheduler" such as when it is specified in DeepSpeed config.
+   2098     model, self.optimizer, self.lr_scheduler = self.accelerator.prepare(
+   2099         self.model, self.optimizer, self.lr_scheduler
+   2100     )
+
+File ~/.local/lib/python3.10/site-packages/accelerate/accelerator.py:1326, in Accelerator.prepare(self, device_placement, *args)
+   1324         # MS-AMP will handle the device placement
+   1325         device_placement = [False for _ in args]
+-> 1326     result = tuple(
+   1327         self._prepare_one(obj, first_pass=True, device_placement=d) for obj, d in zip(args, device_placement)
+   1328     )
+   1329     result = tuple(self._prepare_one(obj, device_placement=d) for obj, d in zip(result, device_placement))
+   1330 if tpu_should_fix_optimizer:
+   1331     # 2. grabbing new model parameters
+
+File ~/.local/lib/python3.10/site-packages/accelerate/accelerator.py:1327, in <genexpr>(.0)
+   1324         # MS-AMP will handle the device placement
+   1325         device_placement = [False for _ in args]
+   1326     result = tuple(
+-> 1327         self._prepare_one(obj, first_pass=True, device_placement=d) for obj, d in zip(args, device_placement)
+   1328     )
+   1329     result = tuple(self._prepare_one(obj, device_placement=d) for obj, d in zip(result, device_placement))
+   1330 if tpu_should_fix_optimizer:
+   1331     # 2. grabbing new model parameters
+
+File ~/.local/lib/python3.10/site-packages/accelerate/accelerator.py:1200, in Accelerator._prepare_one(self, obj, first_pass, device_placement)
+   1198     return self.prepare_data_loader(obj, device_placement=device_placement)
+   1199 elif isinstance(obj, torch.nn.Module):
+-> 1200     return self.prepare_model(obj, device_placement=device_placement)
+   1201 elif isinstance(obj, torch.optim.Optimizer):
+   1202     optimizer = self.prepare_optimizer(obj, device_placement=device_placement)
+
+File ~/.local/lib/python3.10/site-packages/accelerate/accelerator.py:1429, in Accelerator.prepare_model(self, model, device_placement, evaluation_mode)
+   1423                 raise ValueError(
+   1424                     "You can't train a model that has been loaded in 8-bit precision on a different device than the one "
+   1425                     "you're training on. Make sure you loaded the model on the correct device using for example `device_map={'':torch.cuda.current_device()}` or `device_map={'':torch.xpu.current_device()}`"
+   1426                 )
+   1428     if "cpu" in model_devices or "disk" in model_devices:
+-> 1429         raise ValueError(
+   1430             "You can't train a model that has been loaded in 8-bit precision with CPU or disk offload."
+   1431         )
+   1432 elif device_placement and not self.verify_device_map(model):
+   1433     model = model.to(self.device)
+
+ValueError: You can't train a model that has been loaded in 8-bit precision with CPU or disk offload.
+
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/14 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-27 11:15:51.794013: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-27 11:15:51.912506: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-27 11:15:52.343411: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-27 11:15:52.343471: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-27 11:15:52.343477: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:   7%|▋         | 1/14 [00:04<00:58,  4.53s/cell]Executing:  57%|█████▋    | 8/14 [00:04<00:02,  2.35cell/s]Executing:  86%|████████▌ | 12/14 [00:08<00:01,  1.63cell/s]Executing:  93%|█████████▎| 13/14 [00:20<00:00,  1.63cell/s][IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/14 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-27 11:20:21.347814: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-27 11:20:21.469989: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-27 11:20:21.909122: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-27 11:20:21.909183: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-27 11:20:21.909189: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:   7%|▋         | 1/14 [00:04<00:59,  4.54s/cell]Executing:  57%|█████▋    | 8/14 [00:04<00:02,  2.34cell/s]Executing:  86%|████████▌ | 12/14 [00:08<00:01,  1.65cell/s]Executing: 100%|██████████| 14/14 [00:11<00:00,  1.18cell/s]
+Traceback (most recent call last):
+  File "/home/diekhoff/.local/bin/papermill", line 8, in <module>
+    sys.exit(papermill())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [14]":
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+File <timed exec>:9
+
+Cell In[9], line 40, in train_model(base_config, lora_config, bnb_config, data, tokenizer, collator)
+     37     model = prepare_model_for_kbit_training(model)
+     38     model = get_peft_model(model,lora)
+---> 40 args = TrainingArguments(
+     41     output_dir=".",
+     42     fp16=base_config["fp16"],
+     43     weight_decay=base_config["weight_decay"],
+     44     learning_rate=base_config["learning_rate"],
+     45     label_names=['input_ids'],
+     46     num_train_epochs=1000,
+     47     per_device_train_batch_size=1,
+     48     per_device_eval_batch_size=1,
+     49     gradient_accumulation_steps=1,
+     50     no_cuda=False,
+     51     optim="paged_adamw_8bit",
+     52     eval_strategy="none"
+     53 )
+     55 trainer = Trainer(
+     56     model=model,
+     57     args=args,
+   (...)
+     60     data_collator=collator
+     61 )
+     63 trainer.train()
+
+File <string>:131, in __init__(self, output_dir, overwrite_output_dir, do_train, do_eval, do_predict, eval_strategy, prediction_loss_only, per_device_train_batch_size, per_device_eval_batch_size, per_gpu_train_batch_size, per_gpu_eval_batch_size, gradient_accumulation_steps, eval_accumulation_steps, eval_delay, torch_empty_cache_steps, learning_rate, weight_decay, adam_beta1, adam_beta2, adam_epsilon, max_grad_norm, num_train_epochs, max_steps, lr_scheduler_type, lr_scheduler_kwargs, warmup_ratio, warmup_steps, log_level, log_level_replica, log_on_each_node, logging_dir, logging_strategy, logging_first_step, logging_steps, logging_nan_inf_filter, save_strategy, save_steps, save_total_limit, save_safetensors, save_on_each_node, save_only_model, restore_callback_states_from_checkpoint, no_cuda, use_cpu, use_mps_device, seed, data_seed, jit_mode_eval, use_ipex, bf16, fp16, fp16_opt_level, half_precision_backend, bf16_full_eval, fp16_full_eval, tf32, local_rank, ddp_backend, tpu_num_cores, tpu_metrics_debug, debug, dataloader_drop_last, eval_steps, dataloader_num_workers, dataloader_prefetch_factor, past_index, run_name, disable_tqdm, remove_unused_columns, label_names, load_best_model_at_end, metric_for_best_model, greater_is_better, ignore_data_skip, fsdp, fsdp_min_num_params, fsdp_config, fsdp_transformer_layer_cls_to_wrap, accelerator_config, deepspeed, label_smoothing_factor, optim, optim_args, adafactor, group_by_length, length_column_name, report_to, ddp_find_unused_parameters, ddp_bucket_cap_mb, ddp_broadcast_buffers, dataloader_pin_memory, dataloader_persistent_workers, skip_memory_metrics, use_legacy_prediction_loop, push_to_hub, resume_from_checkpoint, hub_model_id, hub_strategy, hub_token, hub_private_repo, hub_always_push, gradient_checkpointing, gradient_checkpointing_kwargs, include_inputs_for_metrics, eval_do_concat_batches, fp16_backend, evaluation_strategy, push_to_hub_model_id, push_to_hub_organization, push_to_hub_token, mp_parameters, auto_find_batch_size, full_determinism, torchdynamo, ray_scope, ddp_timeout, torch_compile, torch_compile_backend, torch_compile_mode, dispatch_batches, split_batches, include_tokens_per_second, include_num_input_tokens_seen, neftune_noise_alpha, optim_target_modules, batch_eval_metrics, eval_on_start, eval_use_gather_object)
+
+File ~/.local/lib/python3.10/site-packages/transformers/training_args.py:1547, in TrainingArguments.__post_init__(self)
+   1540     warnings.warn(
+   1541         "using `no_cuda` is deprecated and will be removed in version 5.0 of 🤗 Transformers. "
+   1542         "Use `use_cpu` instead",
+   1543         FutureWarning,
+   1544     )
+   1545     self.use_cpu = self.no_cuda
+-> 1547 self.eval_strategy = IntervalStrategy(self.eval_strategy)
+   1548 self.logging_strategy = IntervalStrategy(self.logging_strategy)
+   1549 self.save_strategy = IntervalStrategy(self.save_strategy)
+
+File /usr/lib/python3.10/enum.py:385, in EnumMeta.__call__(cls, value, names, module, qualname, type, start)
+    360 """
+    361 Either returns an existing member, or creates a new enum class.
+    362 
+   (...)
+    382 `type`, if set, will be mixed in as the first base class.
+    383 """
+    384 if names is None:  # simple value lookup
+--> 385     return cls.__new__(cls, value)
+    386 # otherwise, functional API: we're creating a new Enum type
+    387 return cls._create_(
+    388         value,
+    389         names,
+   (...)
+    393         start=start,
+    394         )
+
+File /usr/lib/python3.10/enum.py:718, in Enum.__new__(cls, value)
+    716         if not isinstance(exc, ValueError):
+    717             exc.__context__ = ve_exc
+--> 718         raise exc
+    719 finally:
+    720     # ensure all variables that could hold an exception are destroyed
+    721     exc = None
+
+File /usr/lib/python3.10/enum.py:700, in Enum.__new__(cls, value)
+    698 try:
+    699     exc = None
+--> 700     result = cls._missing_(value)
+    701 except Exception as e:
+    702     exc = e
+
+File ~/.local/lib/python3.10/site-packages/transformers/utils/generic.py:496, in ExplicitEnum._missing_(cls, value)
+    494 @classmethod
+    495 def _missing_(cls, value):
+--> 496     raise ValueError(
+    497         f"{value} is not a valid {cls.__name__}, please select one of {list(cls._value2member_map_.keys())}"
+    498     )
+
+ValueError: none is not a valid IntervalStrategy, please select one of ['no', 'steps', 'epoch']
+
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/14 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-27 11:22:49.897432: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-27 11:22:50.015767: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-27 11:22:50.452531: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-27 11:22:50.452588: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-27 11:22:50.452594: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:   7%|▋         | 1/14 [00:04<00:58,  4.51s/cell]Executing:  57%|█████▋    | 8/14 [00:04<00:02,  2.36cell/s]Executing:  86%|████████▌ | 12/14 [00:08<00:01,  1.65cell/s]Executing:  93%|█████████▎| 13/14 [00:20<00:00,  1.65cell/s][IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/14 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-27 11:25:48.568449: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-27 11:25:48.686594: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-27 11:25:49.125467: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-27 11:25:49.125528: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-27 11:25:49.125534: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:   7%|▋         | 1/14 [00:04<00:59,  4.54s/cell]Executing:  64%|██████▍   | 9/14 [00:04<00:01,  2.65cell/s]Executing:  93%|█████████▎| 13/14 [00:20<00:00,  2.65cell/s][IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/14 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-27 11:27:48.247859: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-27 11:27:48.366397: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-27 11:27:48.801064: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-27 11:27:48.801125: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-27 11:27:48.801131: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:   7%|▋         | 1/14 [00:04<00:58,  4.54s/cell]Executing:  57%|█████▋    | 8/14 [00:04<00:02,  2.35cell/s]Executing:  86%|████████▌ | 12/14 [00:08<00:01,  1.65cell/s]Executing:  93%|█████████▎| 13/14 [00:20<00:00,  1.65cell/s][IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/14 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-27 16:00:10.426092: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-27 16:00:10.548485: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-27 16:00:10.988856: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-27 16:00:10.988916: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-27 16:00:10.988922: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:   7%|▋         | 1/14 [00:04<00:59,  4.57s/cell]Executing:  57%|█████▋    | 8/14 [00:04<00:02,  2.33cell/s]Executing:  86%|████████▌ | 12/14 [00:08<00:01,  1.64cell/s]Executing:  93%|█████████▎| 13/14 [00:20<00:00,  1.64cell/s][IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/14 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-27 16:03:42.978465: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-27 16:03:43.096207: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-27 16:03:43.535577: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-27 16:03:43.535638: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-27 16:03:43.535644: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:   7%|▋         | 1/14 [00:04<00:58,  4.53s/cell]Executing:  50%|█████     | 7/14 [00:04<00:03,  2.05cell/s]Executing:  79%|███████▊  | 11/14 [00:08<00:01,  1.53cell/s]Executing:  93%|█████████▎| 13/14 [00:20<00:00,  1.53cell/s]Executing: 100%|██████████| 14/14 [04:02<00:00, 26.22s/cell]Executing: 100%|██████████| 14/14 [04:05<00:00, 17.52s/cell]
+Traceback (most recent call last):
+  File "/home/diekhoff/.local/bin/papermill", line 8, in <module>
+    sys.exit(papermill())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [14]":
+---------------------------------------------------------------------------
+SafetensorError                           Traceback (most recent call last)
+File <timed exec>:9
+
+Cell In[9], line 85, in train_model(base_config, lora_config, bnb_config, data, tokenizer, collator)
+     81     generation["merged"] = create_pipeline_and_print(merged_model)
+     84 if lora_config:
+---> 85     loaded_model = PeftModelForCausalLM.from_pretrained(base_model,save_path)
+     86 else:
+     87     loaded_model = AutoModelForCausalLM.from_pretrained(save_path)
+
+File ~/.local/lib/python3.10/site-packages/peft/peft_model.py:545, in PeftModel.from_pretrained(cls, model, model_id, adapter_name, is_trainable, config, autocast_adapter_dtype, ephemeral_gpu_offload, **kwargs)
+    540 else:
+    541     model = MODEL_TYPE_TO_PEFT_MODEL_MAPPING[config.task_type](
+    542         model, config, adapter_name, autocast_adapter_dtype=autocast_adapter_dtype
+    543     )
+--> 545 model.load_adapter(
+    546     model_id, adapter_name, is_trainable=is_trainable, autocast_adapter_dtype=autocast_adapter_dtype, **kwargs
+    547 )
+    549 return model
+
+File ~/.local/lib/python3.10/site-packages/peft/peft_model.py:1113, in PeftModel.load_adapter(self, model_id, adapter_name, is_trainable, torch_device, autocast_adapter_dtype, ephemeral_gpu_offload, **kwargs)
+   1110         peft_config.inference_mode = not is_trainable
+   1111     self.add_adapter(adapter_name, peft_config)
+-> 1113 adapters_weights = load_peft_weights(model_id, device=torch_device, **hf_hub_download_kwargs)
+   1115 # load the weights into the model
+   1116 ignore_mismatched_sizes = kwargs.get("ignore_mismatched_sizes", False)
+
+File ~/.local/lib/python3.10/site-packages/peft/utils/save_and_load.py:486, in load_peft_weights(model_id, device, **hf_hub_download_kwargs)
+    484         adapters_weights = safe_load_file(filename, device="cpu")
+    485     else:
+--> 486         adapters_weights = safe_load_file(filename, device=device)
+    487 else:
+    488     adapters_weights = torch.load(filename, map_location=torch.device(device))
+
+File ~/.local/lib/python3.10/site-packages/safetensors/torch.py:311, in load_file(filename, device)
+    288 """
+    289 Loads a safetensors file into torch format.
+    290 
+   (...)
+    308 ```
+    309 """
+    310 result = {}
+--> 311 with safe_open(filename, framework="pt", device=device) as f:
+    312     for k in f.keys():
+    313         result[k] = f.get_tensor(k)
+
+SafetensorError: Error while deserializing header: MetadataIncompleteBuffer
+
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/14 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-27 16:13:01.543946: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-27 16:13:01.664326: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-27 16:13:02.106748: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-27 16:13:02.106809: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-27 16:13:02.106815: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:   7%|▋         | 1/14 [00:04<00:59,  4.58s/cell]Executing:  71%|███████▏  | 10/14 [00:07<00:02,  1.47cell/s]Executing:  79%|███████▊  | 11/14 [01:01<00:22,  7.48s/cell]Executing: 100%|██████████| 14/14 [1:14:11<00:00, 524.12s/cell]Wait for final termination of kernel timed out - continuing...
+Executing: 100%|██████████| 14/14 [1:14:21<00:00, 318.69s/cell]
+Traceback (most recent call last):
+  File "/home/diekhoff/.local/bin/papermill", line 8, in <module>
+    sys.exit(papermill())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [14]":
+---------------------------------------------------------------------------
+RuntimeError                              Traceback (most recent call last)
+File <timed exec>:14
+
+Cell In[9], line 63, in train_model(base_config, lora_config, bnb_config, data, tokenizer, collator)
+     40 args = TrainingArguments(
+     41     output_dir=".",
+     42     fp16=base_config["fp16"],
+   (...)
+     52     eval_steps=1000
+     53 )
+     55 trainer = Trainer(
+     56     model=model,
+     57     args=args,
+   (...)
+     60     data_collator=collator
+     61 )
+---> 63 trainer.train()
+     64 save_path = "tmp"
+     65 trainer.save_model(save_path)
+
+File ~/.local/lib/python3.10/site-packages/transformers/trainer.py:1938, in Trainer.train(self, resume_from_checkpoint, trial, ignore_keys_for_eval, **kwargs)
+   1936         hf_hub_utils.enable_progress_bars()
+   1937 else:
+-> 1938     return inner_training_loop(
+   1939         args=args,
+   1940         resume_from_checkpoint=resume_from_checkpoint,
+   1941         trial=trial,
+   1942         ignore_keys_for_eval=ignore_keys_for_eval,
+   1943     )
+
+File ~/.local/lib/python3.10/site-packages/transformers/trainer.py:2279, in Trainer._inner_training_loop(self, batch_size, args, resume_from_checkpoint, trial, ignore_keys_for_eval)
+   2276     self.control = self.callback_handler.on_step_begin(args, self.state, self.control)
+   2278 with self.accelerator.accumulate(model):
+-> 2279     tr_loss_step = self.training_step(model, inputs)
+   2281 if (
+   2282     args.logging_nan_inf_filter
+   2283     and not is_torch_xla_available()
+   2284     and (torch.isnan(tr_loss_step) or torch.isinf(tr_loss_step))
+   2285 ):
+   2286     # if loss is nan or inf simply add the average of previous logged losses
+   2287     tr_loss += tr_loss / (1 + self.state.global_step - self._globalstep_last_logged)
+
+File ~/.local/lib/python3.10/site-packages/transformers/trainer.py:3349, in Trainer.training_step(***failed resolving arguments***)
+   3347         scaled_loss.backward()
+   3348 else:
+-> 3349     self.accelerator.backward(loss, **kwargs)
+   3351 return loss.detach() / self.args.gradient_accumulation_steps
+
+File ~/.local/lib/python3.10/site-packages/accelerate/accelerator.py:2192, in Accelerator.backward(self, loss, **kwargs)
+   2190     return
+   2191 elif self.scaler is not None:
+-> 2192     self.scaler.scale(loss).backward(**kwargs)
+   2193 elif learning_rate is not None and self.has_lomo_optimizer:
+   2194     self.lomo_backward(loss, learning_rate)
+
+File ~/.local/lib/python3.10/site-packages/torch/_tensor.py:521, in Tensor.backward(self, gradient, retain_graph, create_graph, inputs)
+    511 if has_torch_function_unary(self):
+    512     return handle_torch_function(
+    513         Tensor.backward,
+    514         (self,),
+   (...)
+    519         inputs=inputs,
+    520     )
+--> 521 torch.autograd.backward(
+    522     self, gradient, retain_graph, create_graph, inputs=inputs
+    523 )
+
+File ~/.local/lib/python3.10/site-packages/torch/autograd/__init__.py:289, in backward(tensors, grad_tensors, retain_graph, create_graph, grad_variables, inputs)
+    284     retain_graph = create_graph
+    286 # The reason we repeat the same comment below is that
+    287 # some Python versions print out the first line of a multi-line function
+    288 # calls in the traceback and some print out the last line
+--> 289 _engine_run_backward(
+    290     tensors,
+    291     grad_tensors_,
+    292     retain_graph,
+    293     create_graph,
+    294     inputs,
+    295     allow_unreachable=True,
+    296     accumulate_grad=True,
+    297 )
+
+File ~/.local/lib/python3.10/site-packages/torch/autograd/graph.py:769, in _engine_run_backward(t_outputs, *args, **kwargs)
+    767     unregister_hooks = _register_logging_hooks_on_whole_graph(t_outputs)
+    768 try:
+--> 769     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+    770         t_outputs, *args, **kwargs
+    771     )  # Calls into the C++ engine to run the backward pass
+    772 finally:
+    773     if attach_logging_hooks:
+
+RuntimeError: Function MmBackward0 returned an invalid gradient at index 1 - expected device meta but got cuda:1
+
+nohup: ignoring input
+Input Notebook:  finetune-MVP-function.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/5 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-27 22:36:01.115670: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-27 22:36:01.235212: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-27 22:36:01.672307: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-27 22:36:01.672368: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-27 22:36:01.672375: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:  20%|██        | 1/5 [00:04<00:18,  4.52s/cell]Executing:  80%|████████  | 4/5 [00:10<00:02,  2.48s/cell]Executing: 100%|██████████| 5/5 [41:01<00:00, 684.57s/cell]Executing: 100%|██████████| 5/5 [41:03<00:00, 492.71s/cell]
+Traceback (most recent call last):
+  File "/home/diekhoff/.local/bin/papermill", line 8, in <module>
+    sys.exit(papermill())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [5]":
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+Cell In[5], line 1
+----> 1 model = train_model({"weight_decay":0.1,"learning_rate":1e-4,"fp16":False},
+      2             {"r":4096,"lora_alpha":4096,"lora_dropout":0.1},
+      3             {"load_in_4bit":True,"bnb_4bit_use_double_quant":True,"bnb_4bit_compute_dtype":"bfloat16"},
+      4             #False,
+      5             tokenized_ds,tokenizer,collator)
+      7 gen = pipeline(model=model, tokenizer=tokenizer, task="text-generation", device_map="auto",max_new_tokens=512)
+      8 print(gen("""from typing import List\n# <func>\n# Python\n# Check if in given list of numbers, are any two numbers closer to each other than given threshold.\n#>>> has_close_elements([1.0, 2.0, 3.0], 0.5)\n# False\n# >>> has_close_elements([1.0, 2.8, 3.0, 4.0, 5.0, 2.0], 0.3)\n# True\ndef has_close_elements(numbers: List[float], threshold: float) -> bool:"""))
+
+Cell In[3], line 63, in train_model(base_config, lora_config, bnb_config, data, tokenizer, collator)
+     40 args = TrainingArguments(
+     41     output_dir=".",
+     42     fp16=base_config["fp16"],
+   (...)
+     52     eval_strategy="epoch"
+     53 )
+     55 trainer = Trainer(
+     56     model=model,
+     57     args=args,
+   (...)
+     60     data_collator=collator
+     61 )
+---> 63 trainer.train()
+     64 save_path = "tmp_trainer"
+     65 trainer.save_model(save_path)
+
+File ~/.local/lib/python3.10/site-packages/transformers/trainer.py:1938, in Trainer.train(self, resume_from_checkpoint, trial, ignore_keys_for_eval, **kwargs)
+   1936         hf_hub_utils.enable_progress_bars()
+   1937 else:
+-> 1938     return inner_training_loop(
+   1939         args=args,
+   1940         resume_from_checkpoint=resume_from_checkpoint,
+   1941         trial=trial,
+   1942         ignore_keys_for_eval=ignore_keys_for_eval,
+   1943     )
+
+File ~/.local/lib/python3.10/site-packages/transformers/trainer.py:2376, in Trainer._inner_training_loop(self, batch_size, args, resume_from_checkpoint, trial, ignore_keys_for_eval)
+   2373     self.control.should_training_stop = True
+   2375 self.control = self.callback_handler.on_epoch_end(args, self.state, self.control)
+-> 2376 self._maybe_log_save_evaluate(tr_loss, grad_norm, model, trial, epoch, ignore_keys_for_eval)
+   2378 if DebugOption.TPU_METRICS_DEBUG in self.args.debug:
+   2379     if is_torch_xla_available():
+   2380         # tpu-comment: Logging debug metrics for PyTorch/XLA (compile, execute times, ops, etc.)
+
+File ~/.local/lib/python3.10/site-packages/transformers/trainer.py:2804, in Trainer._maybe_log_save_evaluate(self, tr_loss, grad_norm, model, trial, epoch, ignore_keys_for_eval)
+   2802 metrics = None
+   2803 if self.control.should_evaluate:
+-> 2804     metrics = self._evaluate(trial, ignore_keys_for_eval)
+   2806 if self.control.should_save:
+   2807     self._save_checkpoint(model, trial, metrics=metrics)
+
+File ~/.local/lib/python3.10/site-packages/transformers/trainer.py:2761, in Trainer._evaluate(self, trial, ignore_keys_for_eval, skip_scheduler)
+   2760 def _evaluate(self, trial, ignore_keys_for_eval, skip_scheduler=False):
+-> 2761     metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+   2762     self._report_to_hp_search(trial, self.state.global_step, metrics)
+   2764     # Run delayed LR scheduler now that metrics are populated
+
+File ~/.local/lib/python3.10/site-packages/transformers/trainer.py:3659, in Trainer.evaluate(self, eval_dataset, ignore_keys, metric_key_prefix)
+   3656 # memory metrics - must set up as early as possible
+   3657 self._memory_tracker.start()
+-> 3659 eval_dataloader = self.get_eval_dataloader(eval_dataset)
+   3660 if self.is_fsdp_xla_v2_enabled:
+   3661     eval_dataloader = tpu_spmd_dataloader(eval_dataloader)
+
+File ~/.local/lib/python3.10/site-packages/transformers/trainer.py:945, in Trainer.get_eval_dataloader(self, eval_dataset)
+    935 """
+    936 Returns the evaluation [`~torch.utils.data.DataLoader`].
+    937 
+   (...)
+    942         If a `str`, will use `self.eval_dataset[eval_dataset]` as the evaluation dataset. If a `Dataset`, will override `self.eval_dataset` and must implement `__len__`. If it is a [`~datasets.Dataset`], columns not accepted by the `model.forward()` method are automatically removed.
+    943 """
+    944 if eval_dataset is None and self.eval_dataset is None:
+--> 945     raise ValueError("Trainer: evaluation requires an eval_dataset.")
+    947 # If we have persistent workers, don't do a fork bomb especially as eval datasets
+    948 # don't change during training
+    949 dataloader_key = eval_dataset if isinstance(eval_dataset, str) else "eval"
+
+ValueError: Trainer: evaluation requires an eval_dataset.
+
+nohup: ignoring input
+Input Notebook:  finetune-MVP-function.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/5 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-28 10:43:47.000986: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-28 10:43:47.118065: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-28 10:43:47.565986: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-28 10:43:47.566042: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-28 10:43:47.566048: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:  20%|██        | 1/5 [00:04<00:18,  4.70s/cell]Executing:  80%|████████  | 4/5 [00:10<00:02,  2.53s/cell][IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+nohup: ignoring input
+Input Notebook:  finetune-MVP-function.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/5 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-28 11:22:23.823073: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-28 11:22:23.940609: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-28 11:22:24.371467: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-28 11:22:24.371527: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-28 11:22:24.371533: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:  20%|██        | 1/5 [00:04<00:18,  4.65s/cell]Executing:  80%|████████  | 4/5 [00:10<00:02,  2.50s/cell]Executing: 100%|██████████| 5/5 [7:29:59<00:00, 7519.62s/cell]Executing: 100%|██████████| 5/5 [7:30:01<00:00, 5400.30s/cell]
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/13 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-29 16:27:08.902554: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-29 16:27:09.020306: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-29 16:27:09.452410: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-29 16:27:09.452477: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-29 16:27:09.452483: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:   8%|▊         | 1/13 [00:04<00:54,  4.50s/cell]Executing:  77%|███████▋  | 10/13 [00:04<00:01,  2.98cell/s]Executing:  92%|█████████▏| 12/13 [00:20<00:00,  2.98cell/s]Executing: 100%|██████████| 13/13 [9:27:10<00:00, 3475.77s/cell]Executing: 100%|██████████| 13/13 [9:27:18<00:00, 2618.38s/cell]
+Traceback (most recent call last):
+  File "/home/diekhoff/.local/bin/papermill", line 8, in <module>
+    sys.exit(papermill())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [13]":
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+File <timed exec>:7
+
+Cell In[9], line 24, in train_model(base_config, lora_config, bnb_config)
+     16     print("QLORA")
+     17     bnb = BitsAndBytesConfig(
+     18         load_in_4bit=bnb_config["load_in_4bit"],
+     19         bnb_4bit_use_double_quant=bnb_config["bnb_4bit_use_double_quant"],
+     20         bnb_4bit_quant_type="nf4",
+     21         bnb_4bit_compute_dtype=bnb_config["bnb_4bit_compute_dtype"]
+     22     )
+---> 24     model = AutoModelForCausalLM.from_pretrained(
+     25                 model_name,
+     26                 device_map="auto",
+     27                 revision="main",
+     28                 quantization_config = bnb
+     29             )
+     30 else:
+     31     model = AutoModelForCausalLM.from_pretrained(
+     32             model_name,
+     33             device_map="auto",
+     34             revision="main"
+     35         )
+
+File ~/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:564, in _BaseAutoModelClass.from_pretrained(cls, pretrained_model_name_or_path, *model_args, **kwargs)
+    562 elif type(config) in cls._model_mapping.keys():
+    563     model_class = _get_model_class(config, cls._model_mapping)
+--> 564     return model_class.from_pretrained(
+    565         pretrained_model_name_or_path, *model_args, config=config, **hub_kwargs, **kwargs
+    566     )
+    567 raise ValueError(
+    568     f"Unrecognized configuration class {config.__class__} for this kind of AutoModel: {cls.__name__}.\n"
+    569     f"Model type should be one of {', '.join(c.__name__ for c in cls._model_mapping.keys())}."
+    570 )
+
+File ~/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3909, in PreTrainedModel.from_pretrained(cls, pretrained_model_name_or_path, config, cache_dir, ignore_mismatched_sizes, force_download, local_files_only, token, revision, use_safetensors, *model_args, **kwargs)
+   3906     device_map = infer_auto_device_map(model, dtype=target_dtype, **device_map_kwargs)
+   3908     if hf_quantizer is not None:
+-> 3909         hf_quantizer.validate_environment(device_map=device_map)
+   3911 elif device_map is not None:
+   3912     model.tie_weights()
+
+File ~/.local/lib/python3.10/site-packages/transformers/quantizers/quantizer_bnb_4bit.py:86, in Bnb4BitHfQuantizer.validate_environment(self, *args, **kwargs)
+     82     device_map_without_lm_head = {
+     83         key: device_map[key] for key in device_map.keys() if key not in self.modules_to_not_convert
+     84     }
+     85     if "cpu" in device_map_without_lm_head.values() or "disk" in device_map_without_lm_head.values():
+---> 86         raise ValueError(
+     87             "Some modules are dispatched on the CPU or the disk. Make sure you have enough GPU RAM to fit the "
+     88             "quantized model. If you want to dispatch the model on the CPU or the disk while keeping these modules "
+     89             "in 32-bit, you need to set `load_in_8bit_fp32_cpu_offload=True` and pass a custom `device_map` to "
+     90             "`from_pretrained`. Check "
+     91             "https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu "
+     92             "for more details. "
+     93         )
+     95 if version.parse(importlib.metadata.version("bitsandbytes")) < version.parse("0.39.0"):
+     96     raise ValueError(
+     97         "You have a version of `bitsandbytes` that is not compatible with 4bit inference and training"
+     98         " make sure you have the latest version of `bitsandbytes` installed"
+     99     )
+
+ValueError: Some modules are dispatched on the CPU or the disk. Make sure you have enough GPU RAM to fit the quantized model. If you want to dispatch the model on the CPU or the disk while keeping these modules in 32-bit, you need to set `load_in_8bit_fp32_cpu_offload=True` and pass a custom `device_map` to `from_pretrained`. Check https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu for more details. 
+
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/13 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-30 22:55:42.931762: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-30 22:55:43.048890: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-30 22:55:43.484286: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-30 22:55:43.484348: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-30 22:55:43.484354: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:   8%|▊         | 1/13 [00:04<00:56,  4.68s/cell]Executing:  77%|███████▋  | 10/13 [00:04<00:01,  2.76cell/s]Executing:  77%|███████▋  | 10/13 [00:06<00:01,  1.66cell/s]
+Traceback (most recent call last):
+  File "/home/diekhoff/.local/bin/papermill", line 8, in <module>
+    sys.exit(papermill())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [10]":
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[10], line 1
+----> 1 train_model({"weight_decay":0.1,"learning_rate":1e-5,"fp16":False},
+      2             {"r":1024,"lora_alpha":1024,"lora_dropout":0.1},
+      3             {"load_in_4bit":False,"bnb_4bit_use_double_quant":False,"bnb_4bit_compute_dtype":"float32"}
+      4             #False
+      5             )
+
+Cell In[9], line 4, in train_model(base_config, lora_config, bnb_config)
+      1 def train_model(base_config, lora_config, bnb_config):
+      2     global i
+----> 4     i += 1
+      5     if i < 793: return
+      7     model_name = "TinyLlama/TinyLlama_v1.1"
+
+NameError: name 'i' is not defined
+
+nohup: ignoring input
+Input Notebook:  finetune-MVP.ipynb
+Output Notebook: mvp-out.ipynb
+Executing:   0%|          | 0/13 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+2024-10-30 22:56:15.542359: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-30 22:56:15.659857: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-30 22:56:16.095516: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-10-30 22:56:16.095579: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-10-30 22:56:16.095585: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Executing:   8%|▊         | 1/13 [00:04<00:53,  4.49s/cell]Executing:  62%|██████▏   | 8/13 [00:04<00:02,  2.37cell/s]Executing:  92%|█████████▏| 12/13 [00:20<00:00,  2.37cell/s]Executing: 100%|██████████| 13/13 [6:54:06<00:00, 2391.18s/cell]Executing: 100%|██████████| 13/13 [6:54:14<00:00, 1911.85s/cell]
+Traceback (most recent call last):
+  File "/home/diekhoff/.local/bin/papermill", line 8, in <module>
+    sys.exit(papermill())
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/home/diekhoff/.local/lib/python3.10/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [13]":
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+File <timed exec>:7
+
+Cell In[9], line 30, in train_model(base_config, lora_config, bnb_config)
+     22 if bnb_config:
+     23     bnb = BitsAndBytesConfig(
+     24         load_in_4bit=bnb_config["load_in_4bit"],
+     25         bnb_4bit_use_double_quant=bnb_config["bnb_4bit_use_double_quant"],
+     26         bnb_4bit_quant_type="nf4",
+     27         bnb_4bit_compute_dtype=bnb_config["bnb_4bit_compute_dtype"]
+     28     )
+---> 30     model = AutoModelForCausalLM.from_pretrained(
+     31                 model_name,
+     32                 device_map="auto",
+     33                 revision="main",
+     34                 quantization_config = bnb
+     35             )
+     36 else:
+     37     model = AutoModelForCausalLM.from_pretrained(
+     38             model_name,
+     39             device_map="auto",
+     40             revision="main"
+     41         )
+
+File ~/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:564, in _BaseAutoModelClass.from_pretrained(cls, pretrained_model_name_or_path, *model_args, **kwargs)
+    562 elif type(config) in cls._model_mapping.keys():
+    563     model_class = _get_model_class(config, cls._model_mapping)
+--> 564     return model_class.from_pretrained(
+    565         pretrained_model_name_or_path, *model_args, config=config, **hub_kwargs, **kwargs
+    566     )
+    567 raise ValueError(
+    568     f"Unrecognized configuration class {config.__class__} for this kind of AutoModel: {cls.__name__}.\n"
+    569     f"Model type should be one of {', '.join(c.__name__ for c in cls._model_mapping.keys())}."
+    570 )
+
+File ~/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3909, in PreTrainedModel.from_pretrained(cls, pretrained_model_name_or_path, config, cache_dir, ignore_mismatched_sizes, force_download, local_files_only, token, revision, use_safetensors, *model_args, **kwargs)
+   3906     device_map = infer_auto_device_map(model, dtype=target_dtype, **device_map_kwargs)
+   3908     if hf_quantizer is not None:
+-> 3909         hf_quantizer.validate_environment(device_map=device_map)
+   3911 elif device_map is not None:
+   3912     model.tie_weights()
+
+File ~/.local/lib/python3.10/site-packages/transformers/quantizers/quantizer_bnb_4bit.py:86, in Bnb4BitHfQuantizer.validate_environment(self, *args, **kwargs)
+     82     device_map_without_lm_head = {
+     83         key: device_map[key] for key in device_map.keys() if key not in self.modules_to_not_convert
+     84     }
+     85     if "cpu" in device_map_without_lm_head.values() or "disk" in device_map_without_lm_head.values():
+---> 86         raise ValueError(
+     87             "Some modules are dispatched on the CPU or the disk. Make sure you have enough GPU RAM to fit the "
+     88             "quantized model. If you want to dispatch the model on the CPU or the disk while keeping these modules "
+     89             "in 32-bit, you need to set `load_in_8bit_fp32_cpu_offload=True` and pass a custom `device_map` to "
+     90             "`from_pretrained`. Check "
+     91             "https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu "
+     92             "for more details. "
+     93         )
+     95 if version.parse(importlib.metadata.version("bitsandbytes")) < version.parse("0.39.0"):
+     96     raise ValueError(
+     97         "You have a version of `bitsandbytes` that is not compatible with 4bit inference and training"
+     98         " make sure you have the latest version of `bitsandbytes` installed"
+     99     )
+
+ValueError: Some modules are dispatched on the CPU or the disk. Make sure you have enough GPU RAM to fit the quantized model. If you want to dispatch the model on the CPU or the disk while keeping these modules in 32-bit, you need to set `load_in_8bit_fp32_cpu_offload=True` and pass a custom `device_map` to `from_pretrained`. Check https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu for more details. 
+
