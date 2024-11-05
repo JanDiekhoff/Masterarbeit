@@ -1,0 +1,14 @@
+\babel@toc {english}{}\relax
+\babel@toc {ngerman}{}\relax
+\babel@toc {english}{}\relax
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {algorithm}{\numberline {1}{\ignorespaces The Adam optimizer update algorithm. $g^2_t$ is the elementwise square $g_t \odot g_t$. Kingma et al. recommend $\alpha = 0.0001$, $\beta _1 = 0.9$, $\beta _2 = 0.999$ and $\epsilon = 10^{-8}$ as default values. Algorithm taken from \blx@tocontentsinit {0}\cite {Kingma.2015}.}}{8}{algorithm.1}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file

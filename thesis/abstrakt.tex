@@ -1,0 +1,27 @@
+% -------------------------------------------------------
+% Abstrakt / Abstract
+% Achtung: Wenn Sie im Abstrakt Anführungszeichen verwenden wollen, dann benutzen Sie
+%          nicht "` und "', sondern \enquote{}. "` und "' werden nicht richtig
+%          erkannt.
+
+% Kurze (maximal halbseitige) Beschreibung, worum es in der Arbeit geht auf Deutsch
+\newcommand{\hsmaabstractde}{Code-Synthese-Sprachmodelle sind Sprachmodelle, welche Code generieren können.
+Ihre Entwicklung ist ein rasch wachsendes Forschungsfeld.
+Diese Arbeit stellt die TinyFunc-Coder-Modelle vor, eine Reihe von Code-Synthese-Modellen, die als Proof of Concept für eine Lernhilfe für Studenten der Hochschule Mannheim zum Umgang mit künstlicher Intelligenz beim Programmieren dienen soll.
+Anstatt auf bestmögliche Performanz trainiert zu sein, erfüllt sie eine spezifische Rolle, in der sie nur auf spezifische Anforderungen antworten können soll, nämlich das Generieren von Funktionskörpern auf Eingabe eines Funktionskopfes und Docstrings.
+Diese These stellt ebenfalls TinyFuncData vor, ein Datensatz von 6,4M Reihen an Funktionsdefinitionen, die aus dem The Stack-Datensatz extrahiert wurden.
+Aufgrund von Zeit- und Hardware-Einschränkungen wurden viele Optimierungstechniken beim Weitertrainieren der Modelle eingesetzt.
+Bei der Evaluierung auf einem großen Problemsatz, der hauptsächlich aus Problemen des Bigcode Evaluation Harness besteht, erziehlt TinyFuncCoder keine wesentlich besseren Ergebnisse als TinyLlama.
+Dies liegt sowohl an Entscheidungen im Trainingsprozess als auch an den Einschränkungen, unter denen trainiert wurde.
+Dies bietet viel Spielraum für weitere Forschung zum Erschaffen eines Modells, dass die Anforderungen an TinyFuncCoder erfüllt.
+}
+
+% Kurze (maximal halbseitige) Beschreibung, worum es in der Arbeit geht auf Englisch
+\newcommand{\hsmaabstracten}{Code synthesis models are language models which can generate code. 
+Their development is a rapidly growing field of research.
+This thesis introduces a series of code synthesis language models -- the TinyFuncCoder models -- intended to be a proof of concept for a learning aide for students of the University of Applied Sciences of Mannheim to learn to write code assisted by language models.
+Rather than aiming for state-of-the-art performance, they intend to fulfill a specific, niche role and task by only being capable of generating function bodies when prompted with a function head and docstring.
+Further, this thesis introduces TinyFuncData, a 6.4M row dataset containing function definitions for ten programming languages filtered from The Stack dataset.
+The models are fine-tuned from the TinyLlama series using many parameter-efficient fine-tuning techniques due to time and resource restrictions.
+Evaluating on a large evaluation set comprised mainly of the Bigcode Evaluation Harness, the TinyFuncModels are not significantly better than the base TinyLlama models due to decisions made during model creation and a lack of training impact due to tradeoffs made because of restrictions.
+This leaves much room for further work to create a code synthesis model that fulfills the desired capabilities of TinyFuncCoder.}

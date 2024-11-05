@@ -1,0 +1,30 @@
+\chapter{Conclusion}
+\label{chap:conclusion}
+This chapter serves as a summary of the work done in this thesis and the produced results.
+This thesis has introduced the TinyFuncCoder series of code synthesis \acp{lm}.
+This series of models was intended to be a proof of concept for a tool used in academic settings to teach students to work in tandem with a \ac{lm} when writing code.
+TinyFuncCoder was intended to generate a function body from a signature, namely the docstring, function head and parameters.
+The models were intended to be small so they could be run on the hardware accessible to most students and limited in their knowledge of broader programming structures like classes to encourage students to plan out a code architecture for themselves and only being able to generate one function at a time.
+These models were trained under time constraints posed by the scope of a Master's thesis -- six months -- and under resource constraints -- being limited to personal hardware and a server of the University of Applied Sciences of Mannheim.
+These restrictions proved to be a large challenge in training the TinyFuncCoder series.
+
+To train the models, a custom dataset was created from The Stack dataset, a massive collection of GitHub source code files.
+Function definitions of the ten most popular programming languages were extracted with custom \ac{regex}es and split into their components -- programming language, function head, body, parameters and docstring.
+Docstrings were not properly extracted for all languages but Python.
+TinyLlama models were chosen as the base as they are small, open-source and have decent perfomance on multiple metrics, including code knowledge for TinyLlama-v1.0.
+Some exploratory training and a small hyperparameter analysis were done before proper training of the TinyFuncCoder models began.
+During training, the data was split into one-percent chunks of the TinyFuncData dataset and swapped out every epoch.
+During this process, and crashes during training due to memory issues, trainer and optimizer states were lost.
+
+Ultimately, TinyFuncCoder-v1.0 is not markedly more capable than TinyLlama-v1.0 on average, improving on some metrics and worsening on others.
+Its biggest success is an improvement on MultiPL-E, even on languages which it was not fine-tuned on.
+TinyFuncCoder-v1.1 does not achieve any programming capabilities at all, presumably because TinyLlama-v1.1 was not pretrained on code and it was not trained on a sufficient amount of data to acquire this knowledge.
+This result could be caused by many factors, including decisions and mistakes made during dataset creation and training, little hyperparameter analysis due to time and hardware constraints, the model not being trained on enough data due to time constraints, or possibly a poor choice of data formatting for training.
+Taking this into consideration, TinyFuncCoder-v1.0's performance broadly matching or outperforming the TinyLlama series despite multiple setbacks during training can be seen as a success.
+The main limit to the creation of a vastly more capable model remains the size, one of its key components, as model performance on the chosen metrics is tied to model size.
+Further, the TinyLlama series, even the models specifically trained for coding, are also limited to similarly middling performance.
+The chosen metrics, most of them commonly adopted for code synthesis evaluation, are biased towards Python and are partially unreliable.
+
+To answer the research question posed, and for future work to take into consideration, this thesis concludes that creating a model under the given constraints is very challenging, even if all decisions had been made optimally.
+A model of TinyFuncCoder's size is currently not capable of achieving a coding ability good enough to serve as a reliable coding assistant for students, especially when considering the restriction of only being able to generate functions without deeper knowledge of code structures.
+A capable small coding model is certainly possible, and the research into smaller models is also progressing steadily, but such a model still requires more time and resource investment than is possible within the scope of this thesis.

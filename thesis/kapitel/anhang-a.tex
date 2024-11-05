@@ -1,0 +1,122 @@
+\chapter{Error Analysis}
+\label{sec:error}
+After the main work of this thesis was concluded, an experiment was done to judge the capability of the training architecture used in this thesis.
+To see if it can achieve a very simple result, the goal was to train the model on two consecutive words -- \enquote{Hello Banana}.
+Generating one word to follow the next is one the most simple tasks a \ac{lm} can be trained to do and is much, much more cheap in terms of time and resource cost than fine-tuning on a large dataset like TinyFuncData.
+This allows a more elaborate hyperparameter analysis to be done on various model configurations.
+The parameters and values chosen are shown in table \ref{tab:parameters}
+
+\begin{table}[!h]
+    \centering
+    \caption{Possible parameter values for the fine-tuning experiments done to test the capabilities of the fine-tuning pipeline.}
+    \begin{tabular}{l|r|r|r|r}
+        \hline
+        \textbf{Training Parameters} \\
+        \hline
+        \texttt{weight\_decay} & 0 & 0.1 \\
+        \texttt{learning\_rate} & 1e-4 & 1e-5 \\
+        \texttt{fp16} & \texttt{True} & \texttt{False} \\
+        \hline
+        \textbf{\ac{lora} Parameters} \\
+        \hline
+        \texttt{r} (rank) & 1 & 8 & 64 & 1024 \\
+        \texttt{lora\_alpha} & 1 & 8 & 64 & 1024 \\
+        \texttt{lora\_dropout} & 0 & 0.1 & \\
+        \hline
+        \textbf{\ac{qlora} Parameters} \\
+        \hline
+        \texttt{load\_in\_4bit} & \texttt{True} & \texttt{False} \\
+        \texttt{bnb\_4bit\_use\_double\_quant} & \texttt{True} & \texttt{False} \\
+        \texttt{bnb\_4bit\_compute\_dtype} & \texttt{bfloat16} & \texttt{float32} \\
+        \hline
+    \end{tabular}
+    \label{tab:parameters}
+\end{table}
+
+TinyLlama-v1.1 is trained on all possible combinations of these parameters with full fine-tuning, using only \ac{lora} and using both \ac{lora} and \ac{qlora} for 100 epochs per training, excluding those that have no effect on the model.
+For example, models that do not use \ac{qlora} do not iterate over \ac{qlora} parameters as the resulting models would all be identical.
+
+After training, a pipeline is used to generate an output for the input \enquote{Hello}, with the expectation of recieving \enquote{Hello Banana[...]} as a response.
+The pipeline is created with the \texttt{text-generation} task and generated ten new tokens.
+Various states of the model are used to generate the text:
+For full-parameter tuning, the model used in training is prompted directly, the model is saved and loaded back in and prompted, and the base model is loaded and prompted as a baseline check to compare to.
+For \ac{lora} training, both the model from training and the model loaded from a checkpoint are prompted before and after calling \texttt{merge\_and\_unload()}, which merges the \ac{peft} parameters back into the base model.
+Between each training and generation block, all of the used classes are manually deleted using Python's garbage collection library \texttt{gc} to ensure no bleedover of any kind is possible.
+
+Analysing the resulting generations offers the following insights:
+For all models, the responses are limited to the following possibilites.
+The number in the bracket indicates how often this response was given.
+\begin{itemize}
+    \item A: \enquote{Hello$\backslash$nApril 20, 20} (2781)
+    \item B: \enquote{Hello. I'm a 20-something} (1072)
+    \item C: \enquote{Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello} (50)
+    \item D: \enquote{Hello Bananaanaanaanaanaanaanaanaana} (32)
+    \item E: \enquote{Hello The$\backslash$nApril 20, 2} (15)
+    \item F: \enquote{Hello Banana Banana Banana Banana Banana} (12)
+    \item G: \enquote{Hello The Hello Hello Hello Hello Hello Hello Hello Hello Hello} (2)
+    \item H: \enquote{Hello A 2 2 2 2 } (1)
+\end{itemize}
+Response A is the one given by the base model.
+This response is given for the baseline check of each of the model configurations without fail.
+Of the other responses, only D and F can be considered a success as their generation begins with the desired string.
+Training crashed after 793 models finished training.
+The results of this first set of models will be explored before discussing the rest of the generations.
+Of the 793 models, only twelve produced one D or F.
+These are shown in table \ref{tab:banana}.
+
+\begin{table}
+    \centering
+    \small
+    \caption{The twelve model configurations that successfully printed \enquote{Hello Banana[\dots]} after 100 epochs of training.}
+    \begin{tabular}{rrrrrrrrrr}
+        \hline
+        Weight & Learning & FP16 & \ac{lora} & \ac{lora} & \ac{lora} & \ac{qlora} & \ac{qlora} & \ac{qlora} \\
+        Decay & Rate & & Rank & Alpha & Dropout & 4bit & Double Quant. & Type \\
+        \hline
+        0.1 & 1e-5 & \texttt{False} & 1024 & 1024 & 0.1 & - & - & - \\
+        0.1 & 1e-5 & \texttt{False} & 1024 & 1024 & 0.0 & - & - & - \\
+        0.1 & 1e-5 & \texttt{False} & 1024 & 64 & 0.0 & - & - & - \\
+        0.1 & 1e-5 & \texttt{False} & 64 & 1024 & 0.1 & - & - & - \\
+        0.1 & 1e-5 & \texttt{False} & 64 & 1024 & 0.0 & - & - & - \\
+        0.1 & 1e-5 & \texttt{False} & 64 & 64 & 0.0 & - & - & - \\
+        0.1 & 1e-5 & \texttt{False} & 8 & 1024 & 0.1 & - & - & - \\
+        0.1 & 1e-5 & \texttt{False} & 8 & 1024 & 0.0 & - & - & - \\
+        0.1 & 1e-5 & \texttt{False} & 1 & 1024 & 0.1 & - & - & - \\
+        0.1 & 1e-5 & \texttt{False} & 1 & 1024 & 0.0 & - & - & - \\
+        0.1 & 1e-5 & \texttt{False} & 1 & 64 & 0.1 & - & - & - \\
+        0.1 & 1e-5 & \texttt{False} & 1 & 64 & 0.0 & - & - & - \\
+        \hline
+    \end{tabular}
+    \label{tab:banana}
+\end{table}
+
+
+
+Table \ref{tab:generations} shows the distribution of each response per model loading variation.
+\begin{table}
+    \centering
+    \caption{Distribution of all possible responses given by the 793 models trained on \enquote{Hello Banana} and loaded in various ways.}
+    \begin{tabular}{l|rrrrrrrr}
+        \hline
+        Response & Direct & Merged & Loaded & Mrg.+Ld. & Base \\
+        \hline
+        A & 225 & 226 & 768 & 769 & 793 \\
+        B & 536 & 536 & 0 & 0 & 0 \\
+        C & 13 & 12 & 13 & 12 & 0 \\
+        D & 8 & 8 & 8 & 8 & 0 \\
+        E & 8 & 7 & 0 & 0 & 0 \\
+        F & 3 & 4 & 3 & 2 & 0 \\
+        G & 0 & 0 & 0 & 2 & 0 \\
+        H & 0 & 0 & 1 & 0 & 0 \\
+        \hline
+    \end{tabular}
+    \label{tab:generations}
+\end{table}
+
+The results shown in the table are concerning, as it shows that the model can produce inconsistent outputs for each variation of loading it.
+The largest variation is between the direct use and loading it back in, where response B is entirely lost and becomes response A, but small variations also exist in the other responses, including the entirely unique responses G and H.
+This puts into question if the knowledge that was gained during the training of TinyFuncCoder was only partially retained, or in the worst case, not at all.
+
+What is even more concerning is that when resuming training after it crashed, almost every subsequently trained model gave at least one response which included \enquote{Hello Banana} and had a much wider range of possible responses in general.
+Retraining some of the old configurations also gave different responses than before despite using a seed.
+This makes the training process using \ac{lora} and \ac{qlora} very difficult to track and reproduce.

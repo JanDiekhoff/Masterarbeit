@@ -1,0 +1,70 @@
+\chapter{Introduction}
+\label{chap:intro}
+
+This thesis will introduce the TinyFuncCoder series, a collection of \acp{lm} trained to synthesise code purely from function heads and docstrings. It further itnroduces the TinyFuncData dataset used to train it.
+Section \ref{sec:motivation} will introduce the motivation for creating this series of models, as well as the research questions this thesis aims to answer.
+Section \ref{sec:overview} will provide an overview of the structure of the thesis.
+
+\section{Motivation and Research Goals}
+\label{sec:motivation}
+
+The TinyFuncCoder models aim to be \acp{lm} that can synthesise code.
+Code synthesis models are not unique to this thesis, as presented in chapter \ref{sec:synthmodels}.
+However, TinyFuncCoder will be exclusively trained on function definitions and thus should only generate functions without further comments, class structures or other information.
+Its intended use is to be fed a function signature and produce the function body from this information.
+This thesis uses the term \emph{function signature} to mean a function head including the name, return type and parameters, as well as a docstring. The term \emph{function definition} refers to a signature and its corresponding function body.
+
+TinyFuncCoder aims to be a proof of concept for an in-house \ac{lm} that can help students of the University of Applied Sciences Mannheim learn the use of \acp{lm} when coding in a controlled environment.
+The name comes from TinyLlama, the base model used for training, and a shortened \enquote{function coder}.
+As \ac{lm}-assisted coding becomes more commonplace, it is an important skill to learn to properly utilize them.
+As such, TinyFuncCoder's purpose is to be a bare-minimum coding model that can help fill out simple function bodies while still forcing students to think about which functions they need for their use case and plan the architecture of their code.
+Coding with a general-purpose \ac{llm}, most commonly ChatGPT, allows skipping this step by simply asking a plain-language query.
+To prevent this, TinyFuncCoder is not intended to understand plain-language queries.
+It will also not support infilling or bugfixing as these are more advanced, complicated behaviours for a code synthesis \ac{lm}.
+
+Ideally, TinyFuncCoder can serve as the basis for a model that can be used in classrooms or even exams without concerns of trivialising challenges or disrupting the learning process.
+It should only produce results when queried properly because of its custom tuning, and it should run on most devices and can be further tuned easily on available university hardware due to its small size.
+It should be usable without requiring an internet connection, potentially enabling its use even during an exam for classes where its use has been established.
+
+The main question which this thesis aims to answer is \emph{How well can a \acl{lm} be fine-tuned to only synthesise function bodies from their signature?}
+This question assumes that fine-tuning \acp{lm} for code synthesis is possible, and this thesis will showcase many examples of this.
+The novel approach of this thesis is using only function definitions for fine-tuning.
+To the best of our knowledge, other code synthesis models utilize various approaches to create their data for code synthesis fine-tuning, but none utilize a dataset of only function definitions.
+Because this question is explored in the constraints of a Master's thesis, certain restrictions apply that limit the possible scope of research.
+First, the available time is six months.
+Because research, coding, dataset creation and evaluation all take up time in which training cannot simultaneously occur, the available time to train TinyFuncCoder is limited to three months at best.
+Second, many state-of-the-art code synthesis models are trained on very powerful and costly hardware that is not available within the scope of this thesis.
+Most of the code is run on a server of the University of Applied Sciences Mannheim or on a private machine, as further detailed in section \ref{sec:hardware}.
+This hardware limitation in turn influences which size range of model can be used for fine-tuning and how long fine-tuning takes.
+Taking these into account, a more precise research question is
+\begin{quote}
+\emph{How well can a small \acl{lm} be fine-tuned to only synthesise function bodies from a function signature using limited hardware?}
+\end{quote}
+It can be expected that the TinyFuncCoder series will not be able to compete with state-of-the-art models, so this thesis explores how much performance can be achieved under the given restrictions.
+
+The following subquestions should also be considered when answering the main question:
+
+\paragraph{Which \ac{lm}(s), should be used as base models for fine-tuning?}
+The chosen model(s) for fine-tuning need to meet multiple requirements to be viable.
+They need to be open-source and have a permissive license for further training without any royalties or other usage requirements.
+They need to be small enough to be able to be fine-tuned on the available hardware, but still good enough to merit consideration.
+Being pre-trained on code can be both a benefit and a hindrance.
+If they have been already trained on code, it will presumably be easier to strengthen this knowledge, but it may also utilize knowledge that falls outside of the scope of TinyFuncCoder.
+
+\paragraph{How can the coding ability of a \ac{lm} be judged?}
+To see if TinyFuncCoder can fulfill its purpose, its code synthesis abilities need to be assessed on some metric.
+Do one or more appropriate metrics already exist or does one need to be devised?
+
+
+\section{Overview}
+\label{sec:overview}
+
+Chapter \ref{chap:nlp} explains the fundamental knowledge required to understand this thesis, including basic \ac{nlp} and \ac{ml} concepts, as well as more specialized approaches like \ac{qlora} used for TinyFuncCoder.
+It also introduces the Starcoderdata dataset that will be used as a base for this thesis' TinyFuncData dataset, and the evaluation metrics that will be applied to assess TinyFuncCoder's proficiency in code synthesis.
+Chapter \ref{chap:related} presents other approaches to creating code synthesis datasets and models, showcasing their unique approaches, advantages and disadvantages.
+
+Chapter \ref{chap:tinycoder} presents the contributions made by this thesis, including creating the dataset, setting up the model, training and evaluation architecture, and the exploratory training tests done.
+
+Chapter \ref{chap:results} showcases TinyFuncCoder's performance on various metrics.
+Chapter \ref{chap:discussion} discusses these results and the work done as a whole.
+Chapter \ref{chap:conclusion} acts as a recap and summary of everything presented.
