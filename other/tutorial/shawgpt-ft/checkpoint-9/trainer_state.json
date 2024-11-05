@@ -1,0 +1,58 @@
+{
+  "best_metric": 3.09958553314209,
+  "best_model_checkpoint": "shawgpt-ft\\checkpoint-9",
+  "epoch": 2.769230769230769,
+  "global_step": 9,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.92,
+      "learning_rate": 0.00019285714285714286,
+      "loss": 3.6641,
+      "step": 3
+    },
+    {
+      "epoch": 0.92,
+      "eval_loss": 3.2346529960632324,
+      "eval_runtime": 0.424,
+      "eval_samples_per_second": 21.226,
+      "eval_steps_per_second": 7.075,
+      "step": 3
+    },
+    {
+      "epoch": 1.85,
+      "learning_rate": 0.00017142857142857143,
+      "loss": 3.6037,
+      "step": 6
+    },
+    {
+      "epoch": 1.85,
+      "eval_loss": 3.1702871322631836,
+      "eval_runtime": 0.4213,
+      "eval_samples_per_second": 21.362,
+      "eval_steps_per_second": 7.121,
+      "step": 6
+    },
+    {
+      "epoch": 2.77,
+      "learning_rate": 0.00015000000000000001,
+      "loss": 3.5188,
+      "step": 9
+    },
+    {
+      "epoch": 2.77,
+      "eval_loss": 3.09958553314209,
+      "eval_runtime": 0.421,
+      "eval_samples_per_second": 21.378,
+      "eval_steps_per_second": 7.126,
+      "step": 9
+    }
+  ],
+  "max_steps": 30,
+  "num_train_epochs": 10,
+  "total_flos": 263512420024320.0,
+  "trial_name": null,
+  "trial_params": null
+}
