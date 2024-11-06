@@ -25,7 +25,7 @@ Of the columns included in The Stack, the ones used in data extraction were
 \end{itemize}
 
 Two filters were applied to the dataset:
-First, only GitHub's top ten languages as of Q4 2023 were kept \cite{GitHub.20240621}, excluding Makefile and Dockerfile as they do not support functions.
+First, only GitHub's top ten languages as of Q4 2023 were kept \cite{GitHub.2024}, excluding Makefile and Dockerfile as they do not support functions.
 To replace them, C\# and Ruby, the languages in 11th and 12th place, were included.
 GitHub's top languages were chosen as the data from The Stack is also gathered from it.
 As the model is mainly aimed at students, a lot of programming languages are a low priority or entirely obsolete for training.
@@ -725,7 +725,7 @@ The generated files will still be included in the repository.
 \section{Code and Repository Structure}
 \label{sec:repo}
 
-All of the code used to produce this thesis is made available\footnote{\url{https://github.com/JanDiekhoff/Masterarbeit} (last visited on 2024-11-07)}.
+All code and data created and used by this thesis is made available on GitHub\footnote{\url{https://github.com/JanDiekhoff/Masterarbeit} (last visited on 2024-11-07)} and huggingface\footnote{\url{https://huggingface.co/JanDkff} (last visited on 2024-11-07)}.
 The repository is split into six main directories:
 \begin{itemize}
     \item \texttt{data} for all code related to dataset creation, including gathering and reuploading, filtering, cleanup, analysis and processing, as well as a parquet copy of the datasets.
@@ -735,5 +735,3 @@ The repository is split into six main directories:
     \item \texttt{thesis} for the \LaTeX code of this thesis.
     \item \texttt{other} for any other code files, mainly test files from the start of the thesis to experiment with the various libraries and other code used.
 \end{itemize}
-
-The models and datasets are also available on huggingface\footnote{\url{https://huggingface.co/JanDkff} (last visited on 2024-11-07)} to be directly accessible with the transformers and datasets libraries.

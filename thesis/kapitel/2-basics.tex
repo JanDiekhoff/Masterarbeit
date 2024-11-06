@@ -41,7 +41,7 @@ This section will provide a brief overview of the underlying \ac{ml} concepts of
 A \ac{fnn}, broadly, is a collection of interconnected artificial neurons through which data flows and is processed.
 An artificial neuron, inspired by a biological neuron, consists of a set of operations done on an input.
 As shown in figure \ref{fig:neuron}, it consists of an input vector $x$, a weight vector $w$, an optional bias $b$, and an activation function $f$.
-The neuron sums the product of all $x_n$ with their respective $w_n$ and added $b$, then passes the result into $f$ \cite{Jurafsky.2024}.
+The neuron sums the product of all $x_i$ with their respective $w_i$ and adds $b$, then passes the result into $f$ \cite{Jurafsky.2024}.
 The activation function has a large impact on the output, as it determines how the calculated sum is processed.
 Common functions include a linear function ($f(x) = x$), a \ac{relu} ($f(x) = max(0,x)$) or a sigmoid ($f(x) = \sigma(x) = \frac{1}{1+e^{-x}}$).
 
@@ -56,7 +56,7 @@ Common functions include a linear function ($f(x) = x$), a \ac{relu} ($f(x) = ma
         \draw[-stealth,thick] (0,0) node[mynode,xshift=-14]{$x_n$} -- (p) node[midway, above]{$w_n$};
         \draw[-stealth,thick] (p) -- (5.5,1) node[xshift=55]{$y = f(\sum_{i=1}^{n}w_ix_i+b)$} node[midway, above]{$f()$};
 	\end{tikzpicture}
-    \caption{An artificial neuron. Figure adapted from \cite{Jurafsky.2024}.}
+    \caption{An artificial neuron. Inputs are multiplied by weights and summed with a bias. The result is altered by an activation function. Figure adapted from \cite{Jurafsky.2024}.}
     \label{fig:neuron}
 \end{figure}
 
@@ -102,7 +102,7 @@ In \acp{fnn}, unlike in \acp{rnn}, data travels only in one direction, with no l
         }
     }
     \end{tikzpicture}
-    \caption{A simple fully-connected neural network consisting of an input vector of size four, a hidden layer size of five neurons and an output layer with a single neuron. Figure adapted from \cite{Jurafsky.2024}.}
+    \caption{A simple fully-connected neural network consisting of an input vector of size four, a hidden layer with five neurons and an output layer with a single neuron. Figure adapted from \cite{Jurafsky.2024}.}
     \label{fig:nn}
 \end{figure}
 
